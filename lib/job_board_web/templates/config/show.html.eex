@@ -1,0 +1,28 @@
+<h1>Show Config</h1>
+
+<ul>
+
+  <li>
+    <strong>Ucon:</strong>
+    <%= @config.ucon %>
+  </li>
+
+  <li>
+    <strong>Site name:</strong>
+    <%= @config.site_name %>
+  </li>
+
+  <li>
+    <strong>Post price:</strong>
+    <%= @config.post_price %>
+  </li>
+
+  <li>
+    <strong>Site slug:</strong>
+    <%= @config.site_slug %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.config_path(@conn, :edit, @config) %></span>
+<span><%= link "Back", to: Routes.config_path(@conn, :index) %></span>

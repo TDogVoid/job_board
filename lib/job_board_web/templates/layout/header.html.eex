@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- facebook -->
+    <meta property="og:image" content="/icons/android-chrome-384x384.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<%= "#{get_current_url(@conn)}" %>" />
+    <meta property="og:title" content="<%= "#{@pagetitle} | #{get_site_name(@conn)}" %>" />
+    <meta property="og:description" content="<%= get_site_slug(@conn) %>" />
+    
+
+    <!-- /facebook -->
+
+    <title><%= "#{@pagetitle} #{if @conn.assigns[:jobs] do "Page #{@conn.assigns[:jobs][:page]}" end} | #{get_site_name(@conn)}" %> </title>
+    
+
+    <link rel="apple-touch-icon" sizes="180x180" href="<%= Routes.static_path(@conn, "/icons/apple-touch-icon.png") %>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<%= Routes.static_path(@conn, "/icons/favicon-32x32.png") %>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<%= Routes.static_path(@conn, "/icons/favicon-16x16.png") %>">
+    <link rel="manifest" href="<%= Routes.static_path(@conn, "/icons/site.webmanifest") %>">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+    <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>">
+  </head>
+
+  <body>
+  <div class="wrapper">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <%= link get_site_name(@conn), to: Routes.job_path(@conn, :index), class: "navbar-brand"%>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav ">
+            <%= if @conn.assigns[:current_user] do %>
+              <li class="nav-item">
+                <%= link get_post_link_text(@conn), to: Routes.job_path(@conn, :new), class: "nav-link" %>
+              </li>
+              <li class="nav-item">
+                <%= link "Profile", to: Routes.user_path(@conn, :show, @conn.assigns.current_user), class: "nav-link" %>
+              </li>
+              <li class="nav-item">
+                <%= link "Logout", to: Routes.session_path(@conn, :delete, @conn.assigns.current_user), method: "delete", class: "nav-link" %>
+              </li>
+            <% else %>
+              <li class="nav-item">
+                <%= link get_post_link_text(@conn), to: Routes.session_path(@conn, :new), class: "nav-link" %>
+              </li>
+            <% end %>
+            <%= link "Contact", to: Routes.page_path(@conn, :contact), class: "nav-link" %>
+          </ul>
+        </div>
+      </nav>
+      
+    </header>

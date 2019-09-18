@@ -1,0 +1,57 @@
+<!-- Footer -->
+<footer class="page-footer pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-9 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="text-uppercase"><%= get_site_name(@conn) %></h5>
+          <p><%= "version #{get_version()}" %></p>
+        </div>
+        <!-- Grid column -->
+
+        <hr class="d-md-none pb-3">
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <%= link "Privacy Policy", to: Routes.page_path(@conn, :privacy) %>
+              </li>
+              <li>
+                <%= link "Terms", to: Routes.page_path(@conn, :terms)%>
+              </li>
+              <li>
+                <%= link "About", to: Routes.page_path(@conn, :about)%>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center">© 2018 Copyright:
+      <a href="https://agilereaction.com"> Agile Reaction</a>
+      <p>Font Awesome by Dave Gandy - <a href="http://fontawesome.io">http://fontawesome.io</a></p>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->

@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  job_board:
+    image: job_board
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000

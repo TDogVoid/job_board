@@ -1,0 +1,18 @@
+<div class="index-header container">
+    <h1 class="text-center"><%= get_site_slug(@conn)%></h1>
+
+    <%= form_for @conn, Routes.job_path(@conn, :index), [method: :get, class: "input-group row"], fn f -> %>
+        <div class="col-md-8 col-12 padding-0">
+            <%= search_input f, :query, [class: "form-control", placeholder: "Search"] %>
+        </div>
+        <div class="col-md-2 col-8 padding-0">
+            <%= search_input f, :zipcode, [class: "form-control", placeholder: "Zipcode", pattern: "[0-9]{5}", title: "Five digit zip code"] %>
+        </div>
+        <div class="col-md-1 col-3 padding-0">
+            <%= search_input f, :miles, [class: "form-control", placeholder: "Miles", pattern: "[0-9]{0-5}", title: "please enter digits"] %>
+        </div>
+        <div class="input-group-append col-md-1 col-1 padding-0">
+            <%= submit "", [class: "input-group-text fas fa-search"] %>
+        </div>
+    <% end %>
+</div>

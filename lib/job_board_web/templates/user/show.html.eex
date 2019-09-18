@@ -1,0 +1,59 @@
+<h1>User</h1>
+<%= link "Edit", to: Routes.user_path(@conn, :edit, @user) %>
+<br>
+<span>Name: <%= @user.name %></span>
+<br>
+<span>Email: <%= @user.credential.email %>  </span>
+</br>
+<%= if @user.verified do %> 
+    <%= "Email Verified" %>
+<% else %>
+    <strong>Email needs to be verified</strong>
+    <%= link "Resend Email", to: Routes.user_path(@conn, :resend_verification) %>
+<% end %>
+<br>
+
+<%= if @conn.assigns.current_user.role != JobBoard.Accounts.get_default_role() do %>
+    <span>Role: <%= @user.role.name %> </span>
+    <br>
+<% end %>
+
+<%= if is_current_user_admin(@conn) do %>
+    <%= form_for @changeset, Routes.user_path(@conn, :update, @user), fn f -> %>
+        <div class="change-role">
+            Change Role: <%= select f, :role_id, Enum.map(@roles, &{&1.name, &1.id}), selected: @user.role_id, class: "form-control" %>
+        </div>
+        <br>
+        
+        <div class="form-group submit-btn">
+            <%= submit "Submit", class: "btn btn-primary" %>
+        </div>
+    <% end %>
+<% end %>
+
+
+<div class="edit-btns">
+    <span><%= link "Edit Account", to: Routes.user_path(@conn, :edit, @user), class: "btn btn-primary btn-xs" %></span>
+    <span><%= link "Delete Account", to: Routes.user_path(@conn, :delete, @user), method: :delete, data: [confirm: "Are you sure? This will delete all jobs too"], class: "btn btn-danger btn-xs" %></span>
+</div>
+<br>
+<br>
+<%= "#{@jobs.count} Jobs Posted" %>
+<%= render JobBoardWeb.JobView, "job-list.html", conn: @conn, jobs: @jobs %>
+
+<div class="pagination float-right`">
+    <div class="pagination-btn">
+        <%= if @jobs.has_prev do %>
+            <%= link "Prev", to: Routes.user_path(@conn, :show, @user, page: @jobs.prev_page), class: "btn btn-primary btn-lg" %>
+        <% end %>
+    </div>
+    <div class="pagination-btn">
+        <%= if @jobs.has_next do %>
+            <%= link "Next", to: Routes.user_path(@conn, :show, @user, page: @jobs.next_page), class: "btn btn-primary btn-lg" %>
+        <% end %>
+    </div>
+</div>
+<br>
+<br>
+<br>
+

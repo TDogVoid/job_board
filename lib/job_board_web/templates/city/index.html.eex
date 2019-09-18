@@ -1,0 +1,28 @@
+<h2>Listing Cities</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Zipcode</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for city <- @cities do %>
+    <tr>
+      <td><%= "#{city.name}, #{city.state.name}" %></td>
+      <td><%= city.zipcode %></td>
+
+      <td class="text-right">
+        <span><%= link "Show", to: Routes.city_path(@conn, :show, city), class: "btn btn-primary btn-xs" %></span>
+        <span><%= link "Edit", to: Routes.city_path(@conn, :edit, city), class: "btn btn-primary btn-xs" %></span>
+        <span><%= link "Delete", to: Routes.city_path(@conn, :delete, city), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New City", to: Routes.city_path(@conn, :new), class: "btn btn-primary btn-xs" %></span>

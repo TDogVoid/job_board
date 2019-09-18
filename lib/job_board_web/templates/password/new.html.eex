@@ -1,0 +1,6 @@
+<%= form_for @changeset, Routes.password_path(@conn, :create), fn f -> %>
+    <%= inputs_for f, :credential, fn cf -> %> 
+        <%= text_input cf, :email, class: "form-control", placeholder: "Email" %> 
+        <%= error_tag cf, :email %> 
+    <% end %>
+<% end %>

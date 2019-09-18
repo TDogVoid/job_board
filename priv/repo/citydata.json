@@ -1,0 +1,1610 @@
+[{
+    "name":    "Columbus",
+    "zipcode": 43215,
+    "country":	"United States",
+    "state": "Ohio",
+    "county": "Franklin",
+    "lat": 39.967,
+    "long": -83.004
+  },
+  {
+    "name":    "Cleveland",
+    "zipcode": 44106,
+    "country":	"United States",
+    "state": "Ohio",
+    "county": "Cuyahoga",
+    "lat": 41.508,
+    "long": -81.608
+  },
+  {
+    "name":    "Alexandria",
+    "zipcode": 43001,
+    "country":	"United States",
+    "state": "Ohio",
+    "county": "Licking",
+    "lat": 40.106,
+    "long": -82.608
+  },
+  {
+    "name":    "Amlin",
+    "zipcode": 43002,
+    "country":	"United States",
+    "state": "Ohio",
+    "county": "Franklin",
+    "lat": 40.072,
+    "long": -83.179
+  },
+  {
+    "name":    "Blacklick",
+    "zipcode": 43004,
+    "country":	"United States",
+    "state": "Ohio",
+    "county": "Franklin",
+    "lat": 40.021,
+    "long": -82.808
+  },
+  {
+    "name": "Bladensburg",
+    "zipcode": 43005,
+    "country": "United States",
+    "state": "Ohio",
+    "county": "Knox",
+    "lat": 40.285,
+    "long": -82.284
+  },
+  {
+    "name": "Brinkhaven",
+    "zipcode": 43006,
+    "country": "United States",
+    "state": "Ohio",
+    "county": "Knox",
+    "lat": 40.458,
+    "long": -82.155
+  },
+  {
+  "name": "roadway",
+  "zipcode": 43007,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Union",
+  "lat": 40.341,
+  "long": -83.416
+  },
+  {
+  "name": "Buckeye Lake",
+  "zipcode": 43008,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Licking",
+  "lat": 39.934,
+  "long": -82.472
+},{
+  "name": "Cable",
+  "zipcode": 43009,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Champaign",
+  "lat": 40.178,
+  "long": -83.647
+},{
+  "name": "Catawba",
+  "zipcode": 43010,
+  "country": "United States",
+  "state":"Ohio",
+  "county":"Clark",
+  "lat": 39.999,
+  "long": -83.622
+},{
+  "name": "Centerburg",
+  "zipcode": 43011,
+  "country": "United States",
+  "state":"Ohio",
+  "county":"Knox",
+  "lat": 40.287,
+  "long": -82.68
+},{
+  "name": "Croton",
+  "zipcode": 43013,
+  "country": "United States",
+  "state":"Ohio",
+  "county":"Licking",
+  "lat": 40.238,
+  "long": -82.699
+},{
+  "name": "Danville",
+  "zipcode": 43014,
+  "country":  "United States",
+  "state":"Ohio",
+  "county": "Knox",
+  "lat": 40.456,
+  "long": -82.264
+},{
+  "name": "Delaware",
+  "zipcode": 43015,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Delaware",
+  "lat": 40.293,
+  "long": -83.072
+},{
+  "name": "Dublin",
+  "zipcode": 43016,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Franklin",
+  "lat": 40.099,
+  "long": -83.154
+},{
+  "name": "Dublin",
+  "zipcode": 43017,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Franklin",
+  "lat": 40.109,
+  "long": -83.115
+},{
+  "name": "Etna",
+  "zipcode": 43018,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Licking",
+  "lat": 39.957,
+  "long": -82.684
+},{
+  "name": "Fredericktown",
+  "zipcode": 43019,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Knox",
+  "lat": 40.498,
+  "long": -82.586
+},{
+  "name": "Galena",
+  "zipcode": 43021,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Delaware",
+  "lat": 40.201,
+  "long": -82.875
+},{
+  "name": "Gambier",
+  "zipcode": 43022,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Knox",
+  "lat": 40.378,
+  "long": -82.383
+},{
+  "name": "Granville",
+  "zipcode": 43023,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Licking",
+  "lat": 40.079,
+  "long": -82.519
+},{
+  "name": "Hebron",
+  "zipcode": 43025,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Licking",
+  "lat": 39.953,
+  "long": -82.492
+},{
+  "name": "Hilliard",
+  "zipcode": 43026,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Franklin",
+  "lat": 40.032,
+  "long": -83.138
+},{
+  "name": "Homer",
+  "zipcode": 43027,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Licking",
+  "lat": 40.253,
+  "long": -82.518
+},{
+  "name": "Howard",
+  "zipcode": 43028,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Knox",
+  "lat": 40.416,
+	"long": -82.333
+},{
+  "name": "Irwin",
+  "zipcode": 43029,
+  "country": "United States",
+	"state": "Ohio",
+	"county": "Union",
+  "lat": 40.128,
+	"long": -83.459
+},{
+  "name": "Jacksontown",
+  "zipcode": 43030,
+  "country": "United States",
+	"state": "Ohio",
+	"county": "Licking",
+  "lat": 39.96,
+	"long": -82.413
+},{
+  "name": "Johnstown",
+  "zipcode": 43031,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Licking",
+  "lat": 40.145,
+	"long": -82.697
+},{
+  "name": "Kilbourne",
+  "zipcode": 43032,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Delaware",
+  "lat": 40.329,
+	"long": -82.959
+},{
+  "name": "Kirkersville",
+  "zipcode": 43033,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Licking",
+  "lat": 39.961,
+	"long": -82.6
+},{
+  "name": "Lewis Center",
+  "zipcode": 43035,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Delaware",
+  "lat": 40.188,
+	"long": -82.988
+},{
+  "name": "Magnetic Springs",
+  "zipcode": 43036,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Union",
+  "lat": 40.353,
+	"long": -83.263
+},{
+  "name": "Martinsburg",
+  "zipcode": 43037,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Knox",
+  "lat": 40.268,
+	"long": -82.357
+},{
+  "name": "Marysville",
+  "zipcode": 43040,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Union",
+  "lat": 40.248,
+	"long": -83.362
+},{
+  "name": "Marysville",
+  "zipcode": 43041,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Union",
+  "lat": 40.236,
+	"long": -83.367
+},{
+  "name": "Mechanicsburg",
+  "zipcode": 43044,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Champaign",
+  "lat": 40.065,
+	"long": -83.572
+},{
+  "name": "Milford Center",
+  "zipcode": 43045,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Union",
+  "lat": 40.182,
+	"long": -83.437
+},{
+  "name": "Millersport",
+  "zipcode": 43046,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Fairfield",
+  "lat": 39.899,
+	"long": -82.528
+},{
+  "name": "Mingo",
+  "zipcode": 43047,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Champaign",
+  "lat": 40.205,
+	"long": -83.647
+},{
+  "name": "Mount Liberty",
+  "zipcode": 43048,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Knox",
+  "lat": 40.347,
+	"long": -82.63
+},{
+  "name": "Mount Vernon",
+  "zipcode": 43050,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Knox",
+  "lat": 40.385,
+	"long": -82.487
+},{
+  "name": "New Albany",
+  "zipcode": 43054,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Franklin",
+  "lat": 40.085,
+	"long":-82.799
+},{
+  "name": "Newark",
+  "zipcode": 43055,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Licking",
+  "lat": 40.072,
+	"long": -82.405
+},{
+  "name": "Heath",
+  "zipcode": 43056,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Licking",
+  "lat": 40.02,
+	"long": -82.388
+},{
+  "name": "Newark",
+  "zipcode": 43058,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Licking",
+  "lat": 40.058,
+	"long": -82.401
+},{
+  "name": "North Lewisburg",
+  "zipcode": 43060,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Champaign",
+  "lat": 40.223,
+	"long": -83.561
+},{
+  "name": "Ostrander",
+  "zipcode": 43061,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Delaware",
+  "lat": 40.274,
+	"long": -83.198
+},{
+  "name": "Pataskala",
+  "zipcode": 43062,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Licking",
+  "lat": 40.001,
+	"long": -82.669
+},{
+  "name": "Plain City",
+  "zipcode": 43064,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Madison",
+  "lat": 40.097,
+	"long": -83.269
+},{
+  "name": "Powell",
+  "zipcode": 43065,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Delaware",
+  "lat": 40.183,
+	"long": -83.091
+},{
+  "name": "Radnor",
+  "zipcode": 43066,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Delaware",
+  "lat": 40.392,
+	"long": -83.178
+},{
+  "name": "Raymond",
+  "zipcode": 43067,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Union",
+  "lat": 40.338,
+	"long": -83.465
+},{
+  "name": "Reynoldsburg",
+  "zipcode": 43068,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Franklin",
+  "lat": 39.955,
+	"long": -82.803
+},{
+  "name": "Rosewood",
+  "zipcode": 43070,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Champaign",
+  "lat": 40.216,
+	"long": -83.958
+},{
+  "name": "Saint Louisville",
+  "zipcode": 43071,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Licking",
+  "lat": 40.182,
+	"long": -82.356
+},{
+  "name": "Saint Paris",
+  "zipcode": 43072, 
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Champaign",
+  "lat": 40.106,
+	"long": -83.963
+},{
+  "name": "Summit Station",
+  "zipcode": 43073,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Licking",
+  "lat": 39.997,
+	"long": -82.754
+},{
+  "name": "Sunbury",
+  "zipcode": 43074,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Delaware",
+  "lat": 40.265,
+	"long": -82.851
+},{
+  "name": "Thornville",
+  "zipcode": 43076,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Perry",
+  "lat": 39.897,
+	"long": -82.407
+},{
+  "name": "Unionville Center",
+  "zipcode": 43077,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Union",
+  "lat": 40.137,
+	"long": -83.341
+},{
+  "name": "Urbana",
+  "zipcode": 43078,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Champaign",
+  "lat": 40.107,
+	"long": -83.767
+},{
+  "name": "Utica",
+  "zipcode": 43080,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Licking",
+  "lat": 40.244,
+	"long": -82.413
+},{
+  "name": "Westerville",
+  "zipcode": 43081,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Franklin",
+  "lat": 40.115,
+	"long": -82.911
+},{
+  "name": "Westerville",
+  "zipcode": 43082,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Delaware",
+  "lat": 40.152,
+	"long": -82.882
+},{
+  "name": "Westville",
+  "zipcode": 43083,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Champaign",
+  "lat": 40.102,
+	"long": -83.838
+},{
+  "name": "Woodstock",
+  "zipcode": 43084,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Champaign",
+  "lat": 40.182,
+	"long": -83.546
+},{
+  "name": "Westerville",
+  "zipcode": 43086,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Franklin",
+  "lat": 39.969,
+	"long": -83.011
+},{
+  "name": "Newark",
+  "zipcode": 43093,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Licking",
+  "lat": 40.095,
+	"long": -82.483
+},{
+  "name": "Adelphi",
+  "zipcode": 43101,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Ross",
+  "lat": 39.467,
+	"long": -82.747
+},{
+  "name": "Amanda",
+  "zipcode": 43102,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Fairfield",
+  "lat": 39.625,
+	"long": -82.755
+},{
+  "name": "Ashville",
+  "zipcode": 43103,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Pickaway",
+  "lat": 39.732,
+	"long": -82.945
+},{
+  "name": "Baltimore", 
+  "zipcode": 43105,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Fairfield",
+  "lat": 39.864,
+	"long": -82.624
+},{
+  "name": "Bloomingburg",
+  "zipcode": 43106,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Fayette",
+  "lat": 39.629,
+	"long":-83.41
+},{
+  "name": "Bremen",
+  "zipcode": 43107,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Fairfield",
+  "lat": 39.691,
+	"long":-82.41
+},{
+  "name": "Brice",
+  "zipcode": 43109,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Franklin",
+  "lat": 39.918,
+	"long": -82.832
+},{
+  "name": "Canal Winchester",
+  "zipcode": 43110,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Fairfield",
+  "lat": 39.835,
+	"long": -82.804
+},{
+  "name": "Carbon Hill",
+  "zipcode": 43111,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Hocking",
+  "lat": 39.504,
+	"long": -82.243
+},{
+  "name": "Carroll",
+  "zipcode": 43112,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Fairfield",
+  "lat": 39.796,
+	"long": -82.708
+},{
+  "name": "Circleville",
+  "zipcode": 43113,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Pickaway",
+  "lat": 39.599,
+	"long":-82.93
+},{
+  "name": "Clarksburg",
+  "zipcode": 43115,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Ross",
+  "lat": 39.49,
+	"long": -83.156
+},{
+  "name": "Commercial Point",
+  "zipcode": 43116,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Pickaway",
+  "lat": 39.77,
+	"long":-83.06
+},{
+  "name": "Derby",
+  "zipcode": 43117,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Pickaway",
+  "lat": 39.769,
+	"long": -83.206
+},{
+  "name": "Galloway",
+  "zipcode": 43119,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Franklin",
+  "lat": 39.937,
+	"long": -83.184
+},{
+  "name": "Grove City",
+  "zipcode": 43123,
+  "country": "United States",	
+  "state": "Ohio",	
+  "county": "Franklin",
+  "lat": 39.881,
+	"long": -83.084
+},{
+  "name": "Groveport",
+  "zipcode": 43125,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Franklin",
+  "lat": 39.858,
+	"long": -82.887
+},{
+  "name": "Harrisburg",
+  "zipcode": 43126,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Franklin",
+  "lat": 39.814,
+	"long": -83.166
+},{
+  "name": "Haydenville",
+  "zipcode": 43127,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Hocking",
+  "lat": 39.477,
+	"long": -82.328
+},{
+  "name": "Jeffersonville",
+  "zipcode": 43128,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Fayette",
+  "lat": 39.659,
+	"long": -83.569
+},{
+  "name": "Lancaster",
+  "zipcode": 43130,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Fairfield",
+  "lat": 39.719,
+	"long": -82.603
+},{
+  "name": "Laurelville",
+  "zipcode": 43135,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Hocking",
+  "lat": 39.476,
+	"long": -82.721
+},{
+  "name": "Lithopolis",
+  "zipcode": 43136,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Fairfield",
+  "lat": 39.801,
+	"long": -82.812
+},{
+  "name": "Lockbourne",
+  "zipcode": 43137,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Pickaway",
+  "lat": 39.814,
+	"long": -82.976
+},{
+  "name": "Logan",
+  "zipcode": 43138,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Hocking",
+  "lat": 39.537,
+	"long": -82.413
+},{
+  "name": "London",
+  "zipcode": 43140,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Madison",
+  "lat": 39.9,
+	"long": -83.444
+},{
+  "name": "Milledgeville",
+  "zipcode": 43142,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Fayette",
+  "lat": 39.594,
+	"long": -83.587
+},{
+  "name": "Mount Sterling",
+  "zipcode": 43143,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Madison",
+  "lat": 39.718,
+	"long": -83.281
+},{
+  "name": "Murray City",
+  "zipcode": 43144,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Hocking",
+  "lat": 39.506,
+	"long": -82.171
+},{
+  "name": "New Holland",
+  "zipcode": 43145,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Pickaway",
+  "lat": 39.559,
+	"long": -83.25
+},{
+  "name": "Orient",
+  "zipcode": 43146,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Pickaway",
+  "lat": 39.795,
+	"long": -83.154
+},{
+  "name": "Pickerington",
+  "zipcode": 43147,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Fairfield",
+  "lat": 39.906,
+	"long": -82.756
+},{
+  "name": "Pleasantville",
+  "zipcode": 43148,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Fairfield",
+  "lat": 39.823,
+	"long": -82.504
+},{
+  "name": "Rockbridge",
+  "zipcode": 43149,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Hocking",
+  "lat": 39.551,
+	"long": -82.563
+},{
+  "name": "Rushville",
+  "zipcode": 43150,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Fairfield",
+  "lat": 39.767,
+	"long": -82.428
+},{
+  "name": "Sedalia",
+  "zipcode": 43151,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Madison",
+  "lat": 39.733,
+	"long": -83.476
+},{
+  "name": "South Bloomingville",
+  "zipcode": 43152,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Hocking",
+  "lat": 39.417,
+	"long": -82.592
+},{
+  "name": "South Solon",
+  "zipcode": 43153,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Madison",
+  "lat": 39.742,
+	"long": -83.597
+},{
+  "name": "Stoutsville",
+  "zipcode": 43154,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Fairfield",
+  "lat": 39.607,
+	"long": -82.819
+},{
+  "name": "Sugar Grove",
+  "zipcode": 43155,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Fairfield",
+  "lat": 39.628,
+	"long": -82.532
+},{
+  "name": "Tarlton",
+  "zipcode": 43156,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Pickaway",
+  "lat": 39.554,
+	"long": -82.776
+},{
+  "name": "Thurston",
+  "zipcode": 43157,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Fairfield",
+  "lat": 39.843,
+	"long": -82.546
+},{
+  "name": "Union Furnace",
+  "zipcode": 43158,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Hocking",
+  "lat": 39.462,
+	"long": -82.356
+},{
+  "name": "Washington Court House",
+  "zipcode": 43160,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Fayette",
+  "lat": 39.537,
+	"long": -83.455
+},{
+  "name": "West Jefferson",
+  "zipcode": 43162,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Madison",
+  "lat": 39.942,
+	"long": -83.285
+},{
+  "name": "Williamsport",
+  "zipcode": 43164,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Pickaway",
+  "lat": 39.612,
+	"long": -83.125
+},{
+  "name": "Groveport",
+  "zipcode": 43199,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Franklin",
+  "lat": 39.969,
+	"long": -83.011
+},{
+  "name": "Columbus",
+  "zipcode": 43201,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Franklin",
+  "lat": 39.995,
+	"long": -83.005
+},{
+  "name": "Columbus",
+  "zipcode": 43202,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Franklin",
+  "lat": 40.02,
+	"long": -83.012
+},{
+  "name": "Columbus",
+  "zipcode": 43203,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Franklin",
+  "lat": 39.972,
+	"long": -82.969
+},{
+  "name": "Columbus",
+  "zipcode": 43204,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Franklin",
+  "lat": 39.952,
+	"long": -83.078
+  },{
+  "name": "Columbus",
+  "zipcode": 43205,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Franklin",
+  "lat": 39.957,
+	"long": -82.964
+  },{
+  "name": "Columbus",
+  "zipcode": 43206,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Franklin",
+  "lat": 39.943,
+	"long": -82.975
+  },{
+  "name": "Columbus",
+  "zipcode": 43207,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Franklin",
+  "lat": 39.905,
+	"long": -82.97
+  },{
+  "name": "Columbus",
+  "zipcode": 43209,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Franklin",
+  "lat": 39.954,
+	"long": -82.93
+  },{
+  "name": "Columbus",
+  "zipcode": 43210,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Franklin",
+  "lat": 40.003,
+	"long": -83.016
+},{
+  "name": "Columbus",
+  "zipcode": 43211,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Franklin",
+  "lat": 40.012,
+	"long": -82.973
+  },{
+  "name": "Columbus",
+  "zipcode": 43212,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Franklin",
+  "lat": 39.987,
+	"long": -83.046
+  },{
+  "name": "Columbus",
+  "zipcode": 43213,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 39.973,
+	"long": -82.833
+  },{
+  "name": "Columbus",
+  "zipcode": 43214,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 40.053,
+	"long": -83.019
+  },{
+  "name": "Columbus",
+  "zipcode": 43216,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 39.969,
+	"long": -83.011
+  },{
+  "name": "Columbus",
+  "zipcode": 43217,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 39.828,
+	"long": -82.934
+  },{
+  "name": "Columbus",
+  "zipcode": 43218,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 39.969,
+	"long": -83.011
+  },{
+  "name": "Columbus",
+  "zipcode": 43219,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 40.033,
+	"long": -82.91
+  },{
+  "name": "Columbus",
+  "zipcode": 43220,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 40.049,
+	"long": -83.067
+  },{
+  "name": "Columbus",
+  "zipcode": 43221,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 40.023,
+	"long": -83.078
+  },{
+  "name": "Columbus",
+  "zipcode": 43222,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 39.958,
+	"long": -83.031
+  },{
+  "name": "Columbus",
+  "zipcode": 43223,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 39.939,
+	"long": -83.046
+  },{
+  "name": "Columbus",
+  "zipcode": 43224,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 40.042,
+	"long": -82.969
+  },{
+  "name": "Columbus",
+  "zipcode": 43226,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 39.969,
+	"long": -83.011
+  },{
+  "name": "Columbus",
+  "zipcode": 43227,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 39.944,
+	"long": -82.89
+  },{
+  "name": "Columbus",
+  "zipcode": 43228,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 39.965,
+	"long": -83.126
+  },{
+  "name": "Columbus",
+  "zipcode": 43229,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 40.084,
+	"long": -82.973
+  },{
+  "name": "Columbus",
+  "zipcode": 43231,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 40.081,
+	"long": -82.938
+  },{
+  "name": "Columbus",
+  "zipcode": 43232,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 39.923,
+	"long": -82.866
+  },{
+  "name": "Columbus",
+  "zipcode": 43234,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 39.969,
+	"long": -83.011
+  },{
+  "name": "Columbus",
+  "zipcode": 43235,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 40.109,
+	"long": -82.974
+  },{
+  "name": "Columbus",
+  "zipcode": 43236,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 40.136,
+	"long": -83.008
+  },{
+  "name": "Columbus",
+  "zipcode": 43240,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 40.145,
+	"long": -82.982
+  },{
+  "name": "Columbus",
+  "zipcode": 43251,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 39.969,
+	"long": -83.011
+  },{
+  "name": "Columbus",
+  "zipcode": 43260,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 39.969,
+	"long": -83.011
+  },{
+  "name": "Columbus",
+  "zipcode": 43268,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 39.969,
+	"long": -83.011
+  },{
+  "name": "Columbus",
+  "zipcode": 43270,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 39.969,
+	"long": -83.011
+  },{
+  "name": "Columbus",
+  "zipcode": 43271,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 39.969,
+	"long": -83.011
+  },{
+  "name": "Columbus",
+  "zipcode": 43272,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 39.969,
+	"long": -83.011
+  },{
+  "name": "Columbus",
+  "zipcode": 43279,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 39.969,
+	"long": -83.011
+  },{
+  "name": "Columbus",
+  "zipcode": 43287,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 39.969,
+	"long": -83.011
+  },{
+  "name": "Columbus",
+  "zipcode": 43291,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Franklin",
+  "lat": 39.969,
+	"long": -83.011
+  },{
+  "name": "Marion",
+  "zipcode": 43301,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Marion",
+  "lat": 40.617,
+	"long": -83.069
+  },{
+  "name": "Marion",
+  "zipcode": 43302,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Marion",
+  "lat": 40.588,
+	"long": -83.127
+  },{
+  "name": "Belle Center",
+  "zipcode": 43310,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Logan",
+  "lat": 40.502,
+	"long": -83.769
+  },{
+  "name": "Bellefontaine",
+  "zipcode": 43311,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Logan",
+  "lat": 40.36,
+	"long": -83.757
+  },{
+  "name": "Caledonia",
+  "zipcode": 43314,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Marion",
+  "lat": 40.627,
+	"long": -82.992
+  },{
+  "name": "Cardington",
+  "zipcode": 43315,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Morrow",
+  "lat": 40.507,
+	"long": -82.934
+  },{
+  "name": "Carey",
+  "zipcode": 43316,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Wyandot",
+  "lat": 40.949,
+	"long": -83.384
+  },{
+  "name": "Chesterville",
+  "zipcode": 43317,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Morrow",
+  "lat": 40.479,
+	"long": -82.683
+  },{
+  "name": "East Liberty",
+  "zipcode": 43319,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Logan",
+  "lat": 40.308,
+	"long": -83.586
+  },{
+  "name": "Edison",
+  "zipcode": 43320,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Morrow",
+  "lat": 40.59,
+	"long": -82.902
+  },{
+  "name": "Fulton",
+  "zipcode": 43321,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Morrow",
+  "lat": 40.463,
+	"long": -82.829
+  },{
+  "name": "Green Camp",
+  "zipcode": 43322,
+  "country":"United States",
+  "state": "Ohio",
+  "county":"Marion",
+  "lat": 40.532,
+	"long": -83.208
+  },{
+  "name": "Harpster",
+  "zipcode": 43323,
+  "country": "United States",
+  "state": "Ohio",
+    "county": "Wyandot",
+  "lat": 40.748,
+	"long": -83.234
+  },{
+  "name": "Huntsville",
+  "zipcode": 43324,
+  "country": "United States",
+  "state": "Ohio",
+  "county":   "Logan",
+  "lat": 40.441,
+	"long": -83.793
+  },{
+  "name": "Iberia",
+  "zipcode": 43325,
+  "country": "United States",
+  "state": "Ohio",
+  "county":  "Morrow",
+  "lat": 40.67,
+	"long": -82.844
+  },{
+  "name": "Kenton",
+  "zipcode": 43326,
+  "country": "United States",
+  "state": "Ohio",
+  "county":  "Hardin",
+  "lat": 40.64,
+	"long": -83.611
+  },{
+  "name": "Kirby",
+  "zipcode": 43330,
+  "country": "United States",
+  "state": "Ohio",
+    "county": "Wyandot",
+  "lat": 40.813,
+	"long": -83.42
+  },{
+  "name": "Lakeview",
+  "zipcode": 43331,
+  "country": "United States",
+  "state": "Ohio",
+  "county":   "Logan",
+  "lat": 40.502,
+	"long": -83.92
+  },{
+  "name": "La Rue",
+  "zipcode": 43332,
+  "country": "United States",
+  "state": "Ohio",
+  "county":  "Marion",
+  "lat": 40.579,
+	"long": -83.373
+  },{
+  "name": "Lewistown",
+  "zipcode": 43333,
+  "country": "United States",
+  "state": "Ohio",
+  "county":   "Logan",
+  "lat": 40.428,
+	"long": -83.921
+  },{
+  "name": "Marengo",
+  "zipcode": 43334,
+  "country": "United States",
+  "state": "Ohio",
+  "county":  "Morrow",
+  "lat": 40.39,
+	"long": -82.812
+  },{
+  "name": "Martel",
+  "zipcode": 43335,
+  "country": "United States",
+  "state": "Ohio",
+  "county":  "Marion",
+  "lat": 40.668,
+	"long": -82.91
+  },{
+  "name": "Middleburg",
+  "zipcode": 43336,
+  "country": "United States",
+  "state": "Ohio",
+  "county":   "Logan",
+  "lat": 40.293,
+	"long": -83.582
+  },{
+  "name": "Morral",
+  "zipcode": 43337,
+  "country": "United States",
+  "state": "Ohio",
+  "county":  "Marion",
+  "lat": 40.695,
+	"long": -83.205
+  },{
+  "name": "Mount Gilead",
+  "zipcode": 43338,
+  "country": "United States",
+  "state": "Ohio",
+  "county":  "Morrow",
+  "lat": 40.538,
+	"long": -82.806
+  },{
+  "name": "Mount Victory",
+  "zipcode": 43340,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Hardin",
+  "lat": 40.523,
+	"long": -83.494
+  },{
+  "name": "New Bloomington",
+  "zipcode": 43341,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Marion",
+  "lat": 40.607,
+	"long": -83.322
+  },{
+  "name": "Prospect",
+  "zipcode": 43342,
+  "country": "United States",
+  "state": "Ohio",
+  "county":  "Marion",
+  "lat": 40.473,
+	"long": -83.176
+  },{
+  "name": "Quincy",
+  "zipcode": 43343,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Logan",
+  "lat": 40.288,
+	"long": -83.974
+  },{
+  "name": "Richwood",
+  "zipcode": 43344,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Union",
+  "lat": 40.437,
+	"long": -83.314
+  },{
+  "name": "Ridgeway",
+  "zipcode": 43345,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Hardin",
+  "lat": 40.521,
+	"long": -83.57
+  },{
+  "name": "Roundhead",
+  "zipcode": 43346,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Hardin",
+  "lat": 40.573,
+	"long": -83.846
+  },{
+  "name": "Rushsylvania",
+  "zipcode": 43347,
+  "country": "United States",
+  "state": "Ohio",
+  "county":   "Logan",
+  "lat": 40.466,
+	"long": -83.66
+  },{
+  "name": "Russells Point",
+  "zipcode": 43348,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Logan",
+  "lat": 40.467,
+	"long": -83.887
+  },{
+  "name": "Shauck",
+  "zipcode": 43349,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Morrow",
+  "lat": 40.614,
+	"long": -82.662
+},{
+  "name": "Sparta",
+  "zipcode": 43350,
+  "country": "United States",
+  "state": "Ohio",
+  "county":  "Morrow",
+  "lat": 40.529,
+	"long": -82.823
+},{
+  "name": "Upper Sandusky",
+  "zipcode": 43351,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Wyandot",
+  "lat": 40.825,
+	"long": -83.298
+},{
+  "name": "Waldo",
+  "zipcode": 43356,
+  "country": "United States",
+  "state": "Ohio",
+  "county":  "Marion",
+  "lat": 40.461,
+	"long": -83.071
+},{
+  "name": "West Liberty",
+  "zipcode": 43357,
+  "country": "United States",
+  "state": "Ohio",
+  "county":   "Logan",
+  "lat": 40.263,
+	"long": -83.753
+},{
+  "name": "West Mansfield",
+  "zipcode": 43358,
+  "country": "United States",
+  "state": "Ohio",
+  "county":   "Logan",
+  "lat": 40.404,
+	"long": -83.524
+},{
+  "name": "Wharton",
+  "zipcode": 43359,
+  "country": "United States",
+  "state": "Ohio",
+  "county": "Wyandot",
+  "lat": 40.861,
+	"long": -83.463
+},
+{
+  "name": "Zanesfield",
+  "zipcode": 43360,
+  "country": "United States",
+  "state": "Ohio",
+  "lat": 40.321,
+	"long": -83.64
+},
+{
+  "name": "East Palestine",
+  "zipcode": 44413,
+  "country": "United States",
+  "state": "Ohio",
+  "lat": 40.835278,
+	"long": -80.541944
+}
+]

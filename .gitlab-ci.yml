@@ -1,0 +1,72 @@
+image: registry.gitlab.com/tdog/phoenix_build_image:latest
+stages:
+  - test
+  - audit
+  - deploy
+
+variables:
+    DOKKU_HOST: 'ohionursejobs.com'
+    IP_DOKKU_HOST: '174.138.126.49'
+    SSH_DOKKU_PORT: '22'
+    PROJECT_NAME: 'ohionursejobs'
+
+test:
+  variables:
+    POSTGRES_DB: job_board_test
+    POSTGRES_USER: testuser
+    POSTGRES_PASSWORD: ""
+    MIX_ENV: "test"
+    DATABASE_URL: "postgres://testuser:@mdillon__postgis/job_board_test"
+  services:
+    - mdillon/postgis
+  stage: test
+  script:
+    - mix local.rebar --force
+    - mix local.hex --force
+    - mix deps.get
+    - mix test
+    - mix coveralls
+  cache:
+    paths:
+      - deps/
+      - _build/
+
+audit:
+  variables:
+    POSTGRES_DB: job_board_test
+    POSTGRES_USER: testuser
+    POSTGRES_PASSWORD: ""
+    MIX_ENV: "test"
+    DATABASE_URL: "postgres://testuser:@mdillon__postgis/job_board_test"
+  stage: audit
+  script:
+    - mix deps.get
+    - mix hex.audit
+    - cd assets
+    - npm install
+    - npm outdated
+    # - npm audit
+    - mix archive.install hex sobelow --force
+    - mix sobelow --config
+  cache:
+    paths:
+      - deps/
+      - _build/
+      - assets/node_modules
+
+
+deploy-master:
+  image: ilyasemenov/gitlab-ci-git-push
+  stage: deploy
+  only:
+    - master
+  before_script:
+    - 'which ssh-agent || ( apk update && apk add openssh-client )'
+    - eval $(ssh-agent)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+    - mkdir -p ~/.ssh
+    - echo -e "StrictHostKeyChecking no" >> ~/.ssh/config
+    - echo -e "Host $DOKKU_HOST\n  Hostname $IP_DOKKU_HOST\n  Port $SSH_DOKKU_PORT\n" >> ~/.ssh/config
+    - ssh-keyscan -H $DOKKU_HOST >> ~/.ssh/known_hosts
+  script:
+    - git-push ssh://dokku@$DOKKU_HOST:22/$PROJECT_NAME

@@ -1,0 +1,17 @@
+<%= render "index-header.html", conn: @conn %>
+<div class="container job-container">
+    <%= render "job-list.html", conn: @conn, jobs: @jobs %>
+    
+    <div class="pagination float-right">
+        <%= if @jobs.has_prev do %>
+                <div class="pagination-btn">
+                    <%= link "Prev", to: Routes.job_path(@conn, :index, page: @jobs.prev_page, query: @query, zipcode: @zipcode, miles: @miles), class: "btn btn-primary btn-lg" %>
+                </div>
+        <% end %>
+        <%= if @jobs.has_next do %>
+            <div class="pagination-btn">
+                <%= link "Next", to: Routes.job_path(@conn, :index, page: @jobs.next_page, query: @query, zipcode: @zipcode, miles: @miles), class: "btn btn-primary btn-lg" %>
+            </div>
+        <% end %>
+    </div>
+</div>

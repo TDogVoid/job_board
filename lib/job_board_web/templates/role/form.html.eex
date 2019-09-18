@@ -1,0 +1,56 @@
+<%= form_for @changeset, @action, fn f -> %>
+  <%= if @changeset.action do %>
+    <div class="alert alert-danger">
+      <p>Oops, something went wrong! Please check the errors below.</p>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+
+    <%= label f, :name, class: "control-label" %>
+    <%= text_input f, :name, class: "form-control" %>
+    <%= error_tag f, :name %>
+
+   
+
+    <%= label f, :can_view_user_list, class: "control-label" %>
+    <%= checkbox f, :can_view_user_list, class: "checkbox" %>
+    <%= error_tag f, :can_view_user_list %>
+
+    <%= label f, :can_view_other_users, class: "control-label" %>
+    <%= checkbox f, :can_view_other_users, class: "checkbox" %>
+    <%= error_tag f, :can_view_other_users %>
+
+    <%= label f, :can_edit_other_users, class: "control-label" %>
+    <%= checkbox f, :can_edit_other_users, class: "checkbox" %>
+    <%= error_tag f, :can_edit_other_users %>
+
+    <%= label f, :can_delete_other_users, class: "control-label" %>
+    <%= checkbox f, :can_delete_other_users, class: "checkbox" %>
+    <%= error_tag f, :can_delete_other_users %>
+
+    <%= label f, :can_edit_others_job, class: "control-label" %>
+    <%= checkbox f, :can_edit_others_job, class: "checkbox" %>
+    <%= error_tag f, :can_edit_others_job %>
+
+    <%= label f, :can_delete_others_job, class: "control-label" %>
+    <%= checkbox f, :can_delete_others_job, class: "checkbox" %>
+    <%= error_tag f, :can_delete_others_job %>
+
+    <%= label f, :can_promote_users, class: "control-label" %>
+    <%= checkbox f, :can_promote_users, class: "checkbox" %>
+    <%= error_tag f, :can_promote_users %>
+
+    <%= label f, :post_free, class: "control-label" %>
+    <%= checkbox f, :post_free, class: "checkbox" %>
+    <%= error_tag f, :post_free %>
+
+    <%= label f, :admin, class: "control-label" %>
+    <%= checkbox f, :admin, class: "checkbox" %>
+    <%= error_tag f, :admin %>
+  </div>
+
+  <div class="form-group">
+    <%= submit "Submit", class: "btn btn-primary" %>
+  </div>
+<% end %>

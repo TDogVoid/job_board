@@ -1,0 +1,150 @@
+.login-div{
+    padding: 10px;
+}
+
+.login-div .btn{
+    width: 100%;
+}
+
+.navlinks .edit-btns {
+    text-align: right;
+}
+
+.submit-btn{
+    text-align: right;
+}
+
+.index-header {
+    padding: 20px;
+}
+
+.job-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-block-start: 1em;
+    border: 1px solid #ececef;
+    background-color: white;
+}
+body {
+    background-color: #ececec;
+    
+}
+.job-item {
+    border-top: 1px solid #ececef;
+    padding: 10px;
+}
+.job-item:nth-child(even) {
+    background-color: #dee2e4;
+}
+
+.job-item:hover {
+    .clickable-row{
+        cursor:pointer;
+    }
+    
+    background-color: rgb(202, 199, 199);
+}
+
+.job-title {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.job-item-apply-btn {
+    display: none;
+}
+
+.job-item:hover .job-item-apply-btn {
+    display: block;
+}
+
+.apply-btn-cell {
+    width: 100px;
+}
+
+.job-show {
+    background-color: white;
+    padding: 30px;
+}
+
+.main-content {
+    padding: 30px;
+}
+
+.article {
+    background-color: white;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.padding-0{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.pagination-btn {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.help-block {
+    color: red;
+}
+
+/**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+ */
+.StripeElement {
+background-color: white;
+height: 40px;
+padding: 10px 12px;
+border-radius: 4px;
+border: 1px solid transparent;
+box-shadow: 0 1px 3px 0 #e6ebf1;
+-webkit-transition: box-shadow 150ms ease;
+transition: box-shadow 150ms ease;
+}
+  
+.StripeElement--focus {
+box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+background-color: #fefde5 !important;
+}
+
+
+
+#container {
+    height:100%;
+}
+
+html, body {
+    height: 100%;
+    
+}
+$footer-size: 100px;
+
+.wrapper {
+    min-height: 90%;
+    margin-bottom: -$footer-size;
+}
+
+.push {
+    height: $footer-size + 30px;
+}
+
+.footer {
+    background-color: #242424;
+    color: white;
+    width:100%;
+
+}

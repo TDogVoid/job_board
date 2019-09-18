@@ -1,0 +1,11 @@
+[
+  verbose: false,
+  private: false,
+  skip: false,
+  router: "",
+  exit: "medium",
+  format: "txt",
+  out: "",
+  ignore: ["Config.HTTPS", "Config.CSP"],
+  ignore_files: ["lib/job_board_web/templates/user/new-form.html.eex"]
+]

@@ -1,0 +1,28 @@
+<%= render "header.html", conn: @conn, pagetitle: @pagetitle %>    
+      <main role="main">
+        <div class="container">
+          <%= unless is_nil(get_flash(@conn, :info)) do %>
+            <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
+          <% end %>
+          <%= unless is_nil(get_flash(@conn, :error)) do %>
+            <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
+          <% end %>
+          <div class="main-content">
+            <%= render @view_module, @view_template, assigns %>
+          </div>
+        </div> <!-- /container -->
+        <div class="push"></div>
+      </main>
+    </div>
+    
+    <div class="footer">
+      <%= render "footer.html", conn: @conn%>
+    </div>
+
+    <%= if !@conn.assigns[:secure] do %>
+      <%= render "google-analytics.html" %>
+      <%= render "hotjar.html" %>
+    <% end %>
+    <script src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
+  </body>
+</html>

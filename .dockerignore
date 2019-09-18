@@ -1,0 +1,28 @@
+node_modules
+npm-debug.log
+Dockerfile*
+docker-compose*
+.dockerignore
+.git
+.gitignore
+README.md
+LICENSE
+.vscode
+
+# Mix artifacts
+_build
+deps
+*.ez
+
+# Generate on crash by the VM
+erl_crash.dump
+
+# Ignore Elixir LS
+/.elixir_ls
+
+_build/
+deps/
+Makefile
+test/
+priv/static/
+devdocker.env

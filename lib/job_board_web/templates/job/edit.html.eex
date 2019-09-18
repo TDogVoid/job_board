@@ -1,0 +1,5 @@
+<h2>Edit Job Post</h2>
+
+<%= render "form.html", Map.put(assigns, :action, Routes.job_path(@conn, :update, @job)) %>
+
+<span><%= link "Back", to: Routes.job_path(@conn, :index), class: "btn btn-primary" %></span>

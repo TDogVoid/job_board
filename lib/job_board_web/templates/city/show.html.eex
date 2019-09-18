@@ -1,0 +1,31 @@
+<h2>Show City</h2>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @city.name %>
+  </li>
+
+  <li>
+    <strong>State:</strong>
+    <%= @city.state.name %>
+  </li>
+
+  <li>
+    <strong>Zipcode:</strong>
+    <%= @city.zipcode %>
+  </li>
+
+  <li>
+    <strong>Coordinates:</strong>
+    <%= Geo.WKT.encode!(@city.geom) %>
+  </li>
+
+</ul>
+
+
+
+<span><%= link "Edit", to: Routes.city_path(@conn, :edit, @city), class: "btn btn-primary btn-xs" %></span>
+<span><%= link "Back", to: Routes.city_path(@conn, :index), class: "btn btn-primary btn-xs" %></span>
+

@@ -1,0 +1,32 @@
+<h1>Listing Configs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Ucon</th>
+      <th>Site name</th>
+      <th>Post price</th>
+      <th>Site slug</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for config <- @configs do %>
+    <tr>
+      <td><%= config.ucon %></td>
+      <td><%= config.site_name %></td>
+      <td><%= config.post_price %></td>
+      <td><%= config.site_slug %></td>
+
+      <td>
+        <%= link "Show", to: Routes.config_path(@conn, :show, config) %>
+        <%= link "Edit", to: Routes.config_path(@conn, :edit, config) %>
+        <%= link "Delete", to: Routes.config_path(@conn, :delete, config), method: :delete, data: [confirm: "Are you sure?"] %>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Config", to: Routes.config_path(@conn, :new) %></span>

@@ -1,0 +1,59 @@
+<h2>Show Role</h2>
+<h2><%= @role.name %></h2>
+
+<ul>
+
+  <li>
+    <strong>Users in list:</strong>
+    <%= length(@role.user) %>
+  </li>
+  
+  <li>
+    <strong>Can view user list:</strong>
+    <%= @role.can_view_user_list %>
+  </li>
+
+  <li>
+    <strong>Can view other user:</strong>
+    <%= @role.can_view_user_list %>
+  </li>
+  
+  <li>
+    <strong>Can edit others users:</strong>
+    <%= @role.can_edit_other_users %>
+  </li>
+  
+  <li>
+    <strong>Can delete other users:</strong>
+    <%= @role.can_delete_other_users %>
+  </li>
+
+  <li>
+    <strong>Can promote users:</strong>
+    <%= @role.can_promote_users %>
+  </li>
+
+  <li>
+    <strong>Can edit others job:</strong>
+    <%= @role.can_edit_others_job %>
+  </li>
+
+  <li>
+    <strong>Can delete others job:</strong>
+    <%= @role.can_delete_others_job %>
+  </li>
+
+  <li>
+    <strong>Can post free:</strong>
+    <%= @role.post_free %>
+  </li>
+  
+  <li>
+    <strong>Is admin:</strong>
+    <%= @role.admin %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.role_path(@conn, :edit, @role) %></span>
+<span><%= link "Back", to: Routes.role_path(@conn, :index) %></span>

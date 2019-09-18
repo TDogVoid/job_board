@@ -1,0 +1,5 @@
+<h2>Job Post</h2>
+
+<%= render "form.html", Map.put(assigns, :action, Routes.job_path(@conn, :create)) %>
+
+<p>Jobs are Posted for 90 Days</p>

@@ -1,0 +1,18 @@
+<div class="article">
+    <div class="page-title">
+        <h1>Contact Page</h1>
+    </div>
+    <p>If you have any issues please send me an email at <span id="replace-email">require javascript to view email</span> </p>
+</div>
+<%# TODO: contact page %>
+
+<script> 
+em = function() {
+    var m = "support"
+    var d = "ohionursejobs"
+    var e = ".com"
+    x=document.getElementById("replace-email");
+    x.innerHTML=m + "@" + d + e;
+}
+em()
+</script>

@@ -1,0 +1,22 @@
+<div class="article">
+    <div class="page-title">
+        <h1>About Page</h1>
+    </div>
+    <p>Ohio Nurse Jobs is a database to help nurses find jobs and employers find nurses.</p>
+    <p>Currently I aggregate many jobs from various places, but in the future this 
+    will slow to provide more value to employers posting jobs</p>
+    <h3>Roadmap</h3>
+    <ul>
+        <li>Employer Post Jobs</li>
+        <li>Newsletter</li>
+        <li>Create alerts based on search terms</li>
+        <li>Pinned jobs</li>
+        <li>Highlighted Jobs</li>
+    </ul>
+    <br>
+    <p>If you have any suggestions for features you would like click the contact page and send me an email</p>
+    <br>
+    <br>
+    <br>
+    <p>City data was built using <a href="https://www.geonames.org">GeoNames</a></p>
+</div>

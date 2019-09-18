@@ -1,0 +1,5 @@
+<center>
+    <p><h1>Sorry we lost this page<h1></p>
+</center>
+
+<center><font size="6"><%= link "Home", to: "/", class: "nav-link" %><font size="6"></center>

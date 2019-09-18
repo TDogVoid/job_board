@@ -1,0 +1,18 @@
+<h1>List of users</h1>
+<br>
+
+<table class="table">
+  <tbody>
+<%= for user <- @users do %>
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+    </tr>
+    <tr>
+        <td><%= link user.name, to: Routes.user_path(@conn, :show, user) %></td>
+        
+    </tr>
+<% end %>
+  </tbody>
+</table>
+<h5><%= length(@users) %> users</h5>

@@ -1,0 +1,45 @@
+
+<%= form_for @changeset, @action, [id: "job-form"], fn f -> %>
+  <%= if @changeset.action do %>
+    <div class="alert alert-danger">
+      <p>Oops, something went wrong! Please check the errors below.</p>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <div class="form-group">
+      <%= #label f, :title, class: "control-label" %>
+      <%= text_input f, :title, class: "form-control", placeholder: "Position Title"%>
+      <%= error_tag f, :title %>
+    </div>
+    <div class="form-group">
+      <%= if @user.role.admin do %>
+        <%= #label f, :company, class: "control-label" %>
+        <%= text_input f, :company, class: "form-control", placeholder: "Company" %>
+        <%= error_tag f, :company %>
+      <% end %>
+    </div>
+    
+    <div class="form-group">
+      <%= label f, "Where to apply", class: "control-label" %>
+      <%= text_input f, :link, class: "form-control", placeholder: "https://" %>
+      <%= error_tag f, :link %>
+    </div>
+
+    <div class="form-group">
+      <%= label f, :zipcode, class: "control-label" %>
+      <%= text_input f, :zipcode, [class: "form-control", pattern: "[0-9]{5}", title: "Five digit zip code"] %>
+      <%= error_tag f, :zipcode %>
+    </div>
+  </div>
+
+  <%= if (@conn.private.phoenix_action == :new || @conn.private.phoenix_action == :create) && !can_post_free(@conn) do %>
+    <%= render "payment.html", conn: @conn %>
+    
+  <% else %>
+    <div class="form-group submit-btn">
+      <%= submit "Submit", class: "btn btn-primary" %>
+    </div>
+
+  <% end %>
+<% end %>

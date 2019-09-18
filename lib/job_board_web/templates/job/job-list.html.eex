@@ -1,0 +1,46 @@
+<%= if @jobs.error do %>
+    <div class="help-block"><%= @jobs.error %></div>
+<% end %>
+<div class="col-xs-12 job-list">
+    
+    <%= for job <- @jobs.list do %>
+        
+        <div class="job-item" >
+            <div class="clickable-row" data-href="<%= Routes.job_path(@conn, :outbound, job) %>" data-jl="<%= job.link %>">
+                <div class="row job-title">
+                    <div class="col-sm job-title">
+                        <%= job.title %>
+                    </div>
+                </div>
+                <div class="row company">
+                    <div class="col-sm">
+                        <%= if is_admin(@conn) do %>
+                            <%= link company(job), to: Routes.user_path(@conn, :show, job.user), class: "job-company" %>
+                        <% else %>
+                            <span class="job-company">
+                                <%= company(job) %>
+                            </span>
+                        <% end %>
+                    </div>
+                    <div class="col-sm">
+                        <%= "#{job.city.name}, #{job.city.state.name}" %>
+                    </div>
+                    <div class="publish-time col-sm">
+                        <%= "#{time_from_now(job.inserted_at)}" %>
+                    </div>
+                </div>
+            </div>
+            
+            <%= if can_view_edit_buttons(@conn, job) do %>
+            <hr>
+                <div class="row">
+                    <div class="col-sm edit-btns text-right">
+                        <span><%= link "Edit", to: Routes.job_path(@conn, :edit, job), class: "btn btn-primary btn-xs" %></span>
+                        <span><%= link "Delete", to: Routes.job_path(@conn, :delete, job), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %></span>
+                    </div>
+                </div>
+                
+            <% end %>
+        </div>
+    <% end %>
+</div>

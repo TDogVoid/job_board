@@ -1,0 +1,54 @@
+
+<%= form_for @changeset, @action, fn f -> %>
+  <%= if @changeset.action do %>
+    <div class="alert alert-danger">
+      <p>Oops, something went wrong! Please check the errors below.</p>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <%= text_input f, :name, class: "form-control", placeholder: "Name" %> 
+    <%= error_tag f, :name %>
+
+    <br>
+
+    <%= text_input f, :company,  class: "form-control", placeholder: "Company" %> 
+    <%= error_tag f, :company %>
+    
+    <br>
+
+    <%= inputs_for f, :credential, fn cf -> %> 
+      <%= text_input cf, :email, class: "form-control", placeholder: "Email" %> 
+      <%= error_tag cf, :email %> 
+      
+      <br>
+      
+      <%= password_input cf, :password,  class: "form-control", placeholder: "Password" %>
+      <%= error_tag cf, :password %>
+      <br>
+      <%= password_input cf, :password_confirmation,  class: "form-control", placeholder: "Confirm Password" %>
+      <%= error_tag cf, :password_confirmation %>
+    <% end %>
+
+    <div>
+      <%= checkbox f, :newsletter, class: "checkbox" %>
+      <%= label f, "Signup for our newsletter", class: "control-label" %>
+      <br>
+      <%= error_tag f, :newsletter %>
+    </div>
+
+    <div>
+      <%= checkbox f, :agree_terms, class: "checkbox" %>
+      <label for="agree_terms">You Agree To <%= link "Terms of Service", to: Routes.page_path(@conn, :terms) %></label>
+      <br>
+      <%= error_tag f, :agree_terms %>
+    </div>
+    <div>
+      <%= raw Recaptcha.Template.display %>
+    </div>
+  </div>
+
+  <div class="form-group submit-btn">
+    <%= submit "Submit", class: "btn btn-primary" %>
+  </div>
+<% end %>

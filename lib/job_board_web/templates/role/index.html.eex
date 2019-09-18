@@ -1,0 +1,54 @@
+<h2>Listing Roles</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>name</th>
+      <th>Users in role</th>
+      <th>Can view user list</th>
+      <th>Can view other users</th>
+      <th>Can edit other users</th>
+      <th>Can delete other users</th>
+    
+      <th>Can edit others job</th>
+      <th>Can delete others job</th>
+
+      <th>Can promote users</th>
+      <th>Can Post Free</th>
+
+      <th>Is Admin</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for role <- @roles do %>
+    <tr>
+      <td><%= role.name %></td>
+
+      <td><%= length(role.user) %></td>
+      
+      <td><%= role.can_view_user_list %></td>
+      <td><%= role.can_view_other_users %></td>
+      <td><%= role.can_edit_other_users %></td>
+      <td><%= role.can_delete_other_users %></td>
+      
+      <td><%= role.can_edit_others_job %></td>
+      <td><%= role.can_delete_others_job %></td>
+      
+      <td><%= role.can_promote_users %></td>
+      <td><%= role.post_free %></td>
+      <td><%= role.admin %></td>
+      
+
+      <td class="text-right">
+        <span><%= link "Show", to: Routes.role_path(@conn, :show, role), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Edit", to: Routes.role_path(@conn, :edit, role), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Delete", to: Routes.role_path(@conn, :delete, role), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Role", to: Routes.role_path(@conn, :new) %></span>

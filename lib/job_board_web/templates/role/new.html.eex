@@ -1,0 +1,5 @@
+<h2>New Role</h2>
+
+<%= render "form.html", Map.put(assigns, :action, Routes.role_path(@conn, :create)) %>
+
+<span><%= link "Back", to: Routes.role_path(@conn, :index) %></span>

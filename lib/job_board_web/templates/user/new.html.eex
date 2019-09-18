@@ -1,0 +1,3 @@
+New User
+
+<%= render "new-form.html", Map.put(assigns, :action, Routes.user_path(@conn, :create)) %>
